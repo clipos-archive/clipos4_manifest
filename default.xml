@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+<!--
+SPDX-License-Identifier: LGPL-2.1-or-later
+Copyright © 2018 ANSSI. All Rights Reserved.
+
+Public release, projects part of CLIP OS 4.
+-->
+
+  <remote fetch="." name="origin" />
+  <default remote="origin" revision="master" />
+
+  <project name="clipos4_distfiles" path="clip-int/distfiles" revision="df7a5c9407ff75184fc4096e3b444e6fe43635db" />
+  <project name="clipos4_doc" path="clip-doc" revision="529f6c9a8c58e75b058558bb3a6da09eb7544a4f" />
+  <project name="clipos4_portage-overlay-clip" path="clip-int/portage-overlay-clip" revision="81f23f1f9bc0e20c096da59347d0a409defbe154" />
+  <project name="clipos4_portage-overlay-dev" path="clip-int/portage-overlay-dev" revision="99864d535cc17c9a22eb607b74c44c214d1c0674" />
+  <project name="clipos4_portage-overlay" path="clip-int/portage-overlay" revision="b47acacd65738f7a4fc9640397b3e63b649c226a" />
+  <project name="clipos4_portage" path="clip-int/portage" revision="9e2813be05440573b7da8ba5bd5d76c6cab6989f" />
+  <project name="clipos4_specs" path="clip-int/specs" revision="5da908dcbc3bc0e95cc735d3a4c141998acf9ba7" />
+  <project name="src_platform_anssipki-cli" path="clip-dev/anssipki-cli" revision="fa5635a6cdfb2077d5b1b21fc926144234ac572f" />
+  <project name="src_platform_baselayout-clip" path="clip-dev/baselayout-clip" revision="af3833431f556593dabe7b1f5387fa0ef0df3d7b" />
+  <project name="src_platform_baselayout-rm" path="clip-dev/baselayout-rm" revision="55d2692aeb2cce74637fd2fbfb65ba235e3dd533" />
+  <project name="src_platform_baselayout-update" path="clip-dev/baselayout-update" revision="a1476f963d2a39909f7e4d1f157d2d3cd90f6d71" />
+  <project name="src_platform_bionic-malloc" path="clip-dev/bionic-malloc" revision="412a81c84df795e960eec3de13168c49ccde2661" />
+  <project name="src_platform_chroot-launch" path="clip-dev/chroot-launch" revision="3cd8674eb7c7af3a27d7a86503d4b83dff9e7d3f" />
+  <project name="src_platform_ckiutl" path="clip-dev/ckiutl" revision="1a9303290b4f1ccd581180446b71b7e9122c7a48" />
+  <project name="src_platform_clip-beacon" path="clip-dev/clip-beacon" revision="2574fa5f3ab0ebee964c4c2be40adbf6a00b8961" />
+  <project name="src_platform_clip-buildbot" path="clip-dev/clip-buildbot" revision="ac2cd23bdbf6e4f750a29a301a50ebadf4ff6a35" />
+  <project name="src_platform_clip-build" path="clip-dev/clip-build" revision="43095626831579daa84cdd3195464254ff2e66a2" />
+  <project name="src_platform_CLIP-Conf-Base" path="clip-dev/CLIP-Conf-Base" revision="4374a26b95a7cee40403b211999679bd6cb956fa" />
+  <project name="src_platform_clip-config" path="clip-dev/clip-config" revision="9f074ef6276bc4e496c4c01ff161f07646773f98" />
+  <project name="src_platform_clip-deb" path="clip-dev/clip-deb" revision="3eabfa96a6f590cad8ef9fc0c4d72b44e9610892" />
+  <project name="src_platform_clip-devutils" path="clip-dev/clip-devutils" revision="50ec6611c6d4edc3bda5c3258011398c1d6b2a11" />
+  <project name="src_platform_clip-download" path="clip-dev/clip-download" revision="877f4d05a4bb5b27d94e6e2dd1c53dd4490ebdde" />
+  <project name="src_platform_clip-emblem" path="clip-dev/clip-emblem" revision="6c617e066714b567218d1de50964d28759fd45d3" />
+  <project name="src_platform_clip-eraser" path="clip-dev/clip-eraser" revision="db1441fc50a2bc0806310a41058e2e10a02bdb60" />
+  <project name="src_platform_clip-generic-net" path="clip-dev/clip-generic-net" revision="918026dcee12dfe122979d03ff1fdf00cab8b30b" />
+  <project name="src_platform_clip-gtw-net" path="clip-dev/clip-gtw-net" revision="4288cc3dfe1d671004da05a430e849ba6ea39a85" />
+  <project name="src_platform_clip-hardware" path="clip-dev/clip-hardware" revision="f83b319c17bd03423bc1814251ffa3157115e567" />
+  <project name="src_platform_clip-install-clip" path="clip-dev/clip-install-clip" revision="3a5f7680ace34ef207526e77a24dd9568bd11395" />
+  <project name="src_platform_clip-install-common" path="clip-dev/clip-install-common" revision="138f379e64870a31c4faeca2a52c78eab37976ea" />
+  <project name="src_platform_clip-install-config" path="clip-dev/clip-install-config" revision="713118840734e54c5cacea9b69b726543202fb74" />
+  <project name="src_platform_clip-installer" path="clip-dev/clip-installer" revision="80076dc1cf276b77a7db059f54f188e93f522eae" />
+  <project name="src_platform_clip-install-gui" path="clip-dev/clip-install-gui" revision="4370b1e6c461400d104e1b597715b1a5da97214e" />
+  <project name="src_platform_clip-install-rm" path="clip-dev/clip-install-rm" revision="8cc4a0601137d26a0e0690d1d01ad2cb8c466c67" />
+  <project name="src_platform_clip-lib" path="clip-dev/clip-lib" revision="44565c7b49ae770dea4c783a97ae2aecc8f78344" />
+  <project name="src_platform_clip-libvserver" path="clip-dev/clip-libvserver" revision="7cbb9300db4fb220f0408ae163b1fbda70f0ba2d" />
+  <project name="src_platform_clip-livecd" path="clip-dev/clip-livecd" revision="6dab0affe8b2e708830fb22e9f293fe8ce243ec1" />
+  <project name="src_platform_CLIP-Logger" path="clip-dev/CLIP-Logger" revision="7936af2796717cc98ec0b295706a7c1fdac9cbce" />
+  <project name="src_platform_clip-lsm" path="clip-dev/clip-lsm" revision="fcbe68047a6b8f8ce8e0e39f8311d59e2ae9a028" />
+  <project name="src_platform_clip-mdadm-clt" path="clip-dev/clip-mdadm-clt" revision="3f4c32ff5909dae774ae0d3effb34ddad02d10aa" />
+  <project name="src_platform_clip-mdadm" path="clip-dev/clip-mdadm" revision="f0346f3d5671700cf8472187590d3b082b3e9e26" />
+  <project name="src_platform_clip-menu-xdg" path="clip-dev/clip-menu-xdg" revision="607425ccd19690e1347163f90e4543250691e565" />
+  <project name="src_platform_CLIP-Mount" path="clip-dev/CLIP-Mount" revision="f882b633d7ffb06c30183762c1cbf75f6919ae06" />
+  <project name="src_platform_clip-netd" path="clip-dev/clip-netd" revision="251f218b1393e47c3484fbd1627f50194cfcdf68" />
+  <project name="src_platform_clip-net" path="clip-dev/clip-net" revision="ed87a4c1fd8a04904ae2961e68b2eb50c92ae9b7" />
+  <project name="src_platform_clip-patches" path="clip-dev/clip-patches" revision="f5cb330d6b684752e403b4e41b39f7004d88e561" />
+  <project name="src_platform_CLIP-Pkg-Base" path="clip-dev/CLIP-Pkg-Base" revision="5af2416b78df74659281677df2f668e88359a45b" />
+  <project name="src_platform_clip-pkgdb" path="clip-dev/clip-pkgdb" revision="083b77ea327e32f71579c936606f05a9a3af3d6a" />
+  <project name="src_platform_CLIP-Pkg-Download" path="clip-dev/CLIP-Pkg-Download" revision="290849ca0e2e2fc99aff014867c81ccf19269d88" />
+  <project name="src_platform_CLIP-Pkg-Install" path="clip-dev/CLIP-Pkg-Install" revision="ec237f6ba9195b4c2c5e43e88eada2020a0c6a6a" />
+  <project name="src_platform_CLIP-Pkg-QA" path="clip-dev/CLIP-Pkg-QA" revision="691da2dca4d6750e7b6d7ddc7ce21b5733cc7d1b" />
+  <project name="src_platform_ClipQt" path="clip-dev/ClipQt" revision="6061f33093f1ccec9e7e96de920241f79fe95d4c" />
+  <project name="src_platform_clip-sub" path="clip-dev/clip-sub" revision="20023a67f628d5923ccf4e9aae9b7af0a236b19d" />
+  <project name="src_platform_clip-test-box" path="clip-dev/clip-test-box" revision="7ef60984214a72efc797153de63dda5f3e1a1836" />
+  <project name="src_platform_clip-tests" path="clip-dev/clip-tests" revision="04e03d2cabb82cf6181093cc20cad11a8eae9e70" />
+  <project name="src_platform_clip-update-user-data" path="clip-dev/clip-update-user-data" revision="296e347c9ca3169164628daee87aceb83445572f" />
+  <project name="src_platform_clip-usb-clt" path="clip-dev/clip-usb-clt" revision="01284502732c9f4e493c5922678707091c19a506" />
+  <project name="src_platform_clip-usb-keys" path="clip-dev/clip-usb-keys" revision="4b54529d106bfd7f041399baa3aea430910fbb27" />
+  <project name="src_platform_clip-useradmin" path="clip-dev/clip-useradmin" revision="e947a9eaaf2b2d245be24b2b16bbb6b1185f05d9" />
+  <project name="src_platform_clip-user-mount" path="clip-dev/clip-user-mount" revision="ab2dcbe2bdf7b0aeb29f9df1da7bd81849f98a0b" />
+  <project name="src_platform_clip-viewer" path="clip-dev/clip-viewer" revision="5e747a03dfac77e3e31d96095595ab8c567ce125" />
+  <project name="src_platform_clip-vpn-net" path="clip-dev/clip-vpn-net" revision="752d7fe3ed85128811876afd75c88474fe210f36" />
+  <project name="src_platform_clip-vserver" path="clip-dev/clip-vserver" revision="581fcf1ab100618c54b8039f5a571d2de1a9312d" />
+  <project name="src_platform_core-services" path="clip-dev/core-services" revision="5236fa6ce0e1a66e059548a4a8ae3a481c0afab7" />
+  <project name="src_platform_cryptclt" path="clip-dev/cryptclt" revision="33619ad6b4413142e41c36285d3fc74007ed64d7" />
+  <project name="src_platform_cryptd" path="clip-dev/cryptd" revision="c1083187ab87711a96aba7f97fec9417b6ef37db" />
+  <project name="src_platform_debootstrap-clip" path="clip-dev/debootstrap-clip" revision="8bf5fe7df6cdc53dd6c84ce6aba535e19dc96da0" />
+  <project name="src_platform_downloadrequest" path="clip-dev/downloadrequest" revision="920711dead5ff362f712a90db85c8923ab9845c7" />
+  <project name="src_platform_fbpanel-clip" path="clip-dev/fbpanel-clip" revision="6102811cdff6d1518438698d722ec0c3024041f6" />
+  <project name="src_platform_fdp" path="clip-dev/fdp" revision="9474a06e4e30738f6a1e65607d7775ab7484b297" />
+  <project name="src_platform_gen-crypt" path="clip-dev/gen-crypt" revision="f3b22c4a88dbcc79e0c6236c0b76ec7986c00004" />
+  <project name="src_platform_hotplug-clip" path="clip-dev/hotplug-clip" revision="dc8a66cd921274a0b45f48754ee4cef61610bbb8" />
+  <project name="src_platform_init-cleaner" path="clip-dev/init-cleaner" revision="fe32b75cb57b37d3baded43a73a9b0432c47a397" />
+  <project name="src_platform_jailmaster" path="clip-dev/jailmaster" revision="7f4e1486714f31b82d9214d26d846ab51c899539" />
+  <project name="src_platform_jailrequest" path="clip-dev/jailrequest" revision="937ddb3ec9ff72abb176bfcad4ed0f2ab054b304" />
+  <project name="src_platform_libanssipki-client" path="clip-dev/libanssipki-client" revision="568646960e5e0c5c9fb5fb29a2878e52f3ff1846" />
+  <project name="src_platform_libanssipki-crypto" path="clip-dev/libanssipki-crypto" revision="a07508a0ac088e7a1a0a17e6ec9302b80adea86a" />
+  <project name="src_platform_openbsd-malloc" path="clip-dev/openbsd-malloc" revision="957784d19c5ea42100f45d2425ac19d76dadc3ce" />
+  <project name="src_platform_pam_exec_pwd" path="clip-dev/pam_exec_pwd" revision="4f570f5d01ca3254974c31c55730b611e7a0d7f8" />
+  <project name="src_platform_pam_jail" path="clip-dev/pam_jail" revision="f1dfecafd42656c230b5d0c86d0845e55ce48de1" />
+  <project name="src_platform_pfring-kernel-patches" path="clip-dev/pfring-kernel-patches" revision="d482346717a59388f50e3321eaa454f63749c28e" />
+  <project name="src_platform_pwcheckd" path="clip-dev/pwcheckd" revision="c6a64f0e86fa817ecfa0b79285d7decc2f167675" />
+  <project name="src_platform_rmh-config" path="clip-dev/rmh-config" revision="e7c7e0f55538da93ad36c3c66ded0c2b22dbba6b" />
+  <project name="src_platform_rm-sessions" path="clip-dev/rm-sessions" revision="18d9707dfad273442ec56b564631223a93f982b7" />
+  <project name="src_platform_scdaemon" path="clip-dev/scdaemon" revision="9b018d6669798a437bbd8712b103b21875db0c28" />
+  <project name="src_platform_smartcard-monitor" path="clip-dev/smartcard-monitor" revision="4d0ef6f642ef0d00879e1207372583d0fa81a8e2" />
+  <project name="src_platform_smartcard-readers" path="clip-dev/smartcard-readers" revision="d9d340c7865b4b87bc9f9b287e1db502afc5ccac" />
+  <project name="src_platform_ssm-display" path="clip-dev/ssm-display" revision="a20388d57e04e2719107f67b000e7a09a700c216" />
+  <project name="src_platform_strongswan-clip-updown" path="clip-dev/strongswan-clip-updown" revision="00fe02f56364a24c201d06440ac3745fa63f4e0a" />
+  <project name="src_platform_strongswan-patches" path="clip-dev/strongswan-patches" revision="d606d3f355d31b76cf8499fdad1d16378ec4d485" />
+  <project name="src_platform_sub-clip" path="clip-dev/sub-clip" revision="8dc6ef62a0a34f309475c2cbc1b394d1afcec143" />
+  <project name="src_platform_syslinux-tpm-patches" path="clip-dev/syslinux-tpm-patches" revision="441976f615175c3a80ea4f0f7ecf0a762c670e09" />
+  <project name="src_platform_tpm-cmd" path="clip-dev/tpm-cmd" revision="720bb5b679f7cbe0a744577abffc936106fd197f" />
+  <project name="src_platform_usb-printer-devices" path="clip-dev/usb-printer-devices" revision="a2802bbd29de9f508e10bb9570e6f9d771c3e480" />
+  <project name="src_platform_usb-scanner-devices" path="clip-dev/usb-scanner-devices" revision="644d55df541e50cccc1e5329182a6ea8cfd3891f" />
+  <project name="src_platform_usb-video-devices" path="clip-dev/usb-video-devices" revision="ae3349242c79ffa8fdab1444cd66b524d1c28209" />
+  <project name="src_platform_userd" path="clip-dev/userd" revision="66f199c3cb448fffe98261f7351914ef18d4258e" />
+  <project name="src_platform_vaultguard" path="clip-dev/vaultguard" revision="ade015b58dfa2e57a6731b8c54346836a687956f" />
+  <project name="src_platform_verictl" path="clip-dev/verictl" revision="98e11b32d366d644adc9e4554d831aa2b0974052" />
+  <project name="src_platform_vsctl" path="clip-dev/vsctl" revision="788fd162ad75277aa6ddfdbd18f7c93ec83f9bb2" />
+  <project name="src_platform_xscreensaver-pwcheck" path="clip-dev/xscreensaver-pwcheck" revision="e50e9122c0a9aa5055127eea5d22d1a39fd7f9d3" />
+
+<!-- vim: set ts=2 sts=2 sw=2 et: -->
+</manifest>
