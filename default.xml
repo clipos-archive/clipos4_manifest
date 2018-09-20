@@ -11,7 +11,7 @@ Public release, projects part of CLIP OS 4.
   <default remote="origin" revision="master" />
 
   <project name="clipos4_distfiles" path="clip-int/distfiles" revision="df7a5c9407ff75184fc4096e3b444e6fe43635db" />
-  <project name="clipos4_doc" path="clip-doc" revision="529f6c9a8c58e75b058558bb3a6da09eb7544a4f" />
+  <project name="clipos4_doc" path="clip-doc" revision="bc949204c7d5258bd42d4131773d8b14b462af82" />
   <project name="clipos4_portage-overlay-clip" path="clip-int/portage-overlay-clip" revision="81f23f1f9bc0e20c096da59347d0a409defbe154" />
   <project name="clipos4_portage-overlay-dev" path="clip-int/portage-overlay-dev" revision="99864d535cc17c9a22eb607b74c44c214d1c0674" />
   <project name="clipos4_portage-overlay" path="clip-int/portage-overlay" revision="b47acacd65738f7a4fc9640397b3e63b649c226a" />
