@@ -10,6 +10,7 @@ Public release, projects part of CLIP OS 4.
   <remote fetch="." name="origin" />
   <default remote="origin" revision="master" />
 
+  <project name="clipos4_artifacts" path="artifacts" />
   <project name="clipos4_distfiles" path="clip-int/distfiles" />
   <project name="clipos4_doc" path="clip-doc" />
   <project name="clipos4_portage-overlay-clip" path="clip-int/portage-overlay-clip" />
@@ -37,6 +38,7 @@ Public release, projects part of CLIP OS 4.
   <project name="src_platform_clip-generic-net" path="clip-dev/clip-generic-net" />
   <project name="src_platform_clip-gtw-net" path="clip-dev/clip-gtw-net" />
   <project name="src_platform_clip-hardware" path="clip-dev/clip-hardware" />
+  <project name="src_platform_clip-icons" path="clip-dev/clip-icons" />
   <project name="src_platform_clip-install-clip" path="clip-dev/clip-install-clip" />
   <project name="src_platform_clip-install-common" path="clip-dev/clip-install-common" />
   <project name="src_platform_clip-install-config" path="clip-dev/clip-install-config" />
@@ -72,6 +74,7 @@ Public release, projects part of CLIP OS 4.
   <project name="src_platform_clip-viewer" path="clip-dev/clip-viewer" />
   <project name="src_platform_clip-vpn-net" path="clip-dev/clip-vpn-net" />
   <project name="src_platform_clip-vserver" path="clip-dev/clip-vserver" />
+  <project name="src_platform_clip-wallpapers" path="clip-dev/clip-wallpapers" />
   <project name="src_platform_core-services" path="clip-dev/core-services" />
   <project name="src_platform_cryptclt" path="clip-dev/cryptclt" />
   <project name="src_platform_cryptd" path="clip-dev/cryptd" />
@@ -90,12 +93,14 @@ Public release, projects part of CLIP OS 4.
   <project name="src_platform_pam_exec_pwd" path="clip-dev/pam_exec_pwd" />
   <project name="src_platform_pam_jail" path="clip-dev/pam_jail" />
   <project name="src_platform_pfring-kernel-patches" path="clip-dev/pfring-kernel-patches" />
+  <project name="src_platform_portage-derive" path="clip-dev/portage-derive" />
   <project name="src_platform_pwcheckd" path="clip-dev/pwcheckd" />
   <project name="src_platform_rmh-config" path="clip-dev/rmh-config" />
   <project name="src_platform_rm-sessions" path="clip-dev/rm-sessions" />
   <project name="src_platform_scdaemon" path="clip-dev/scdaemon" />
   <project name="src_platform_smartcard-monitor" path="clip-dev/smartcard-monitor" />
   <project name="src_platform_smartcard-readers" path="clip-dev/smartcard-readers" />
+  <project name="src_platform_splash-theme-clip" path="clip-dev/splash-theme-clip" />
   <project name="src_platform_ssm-display" path="clip-dev/ssm-display" />
   <project name="src_platform_strongswan-clip-updown" path="clip-dev/strongswan-clip-updown" />
   <project name="src_platform_strongswan-patches" path="clip-dev/strongswan-patches" />
