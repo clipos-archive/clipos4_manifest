@@ -1,6 +1,13 @@
 # CLIP OS 4
 
-Use [Repo](https://gerrit.googlesource.com/git-repo/) to get the sources:
+To download all the necessary files, first ensure to have installed the Git LFS filters hooks for Git with the following command:
+```console
+git-lfs install --skip-repo
+```
+
+This step is required to be done *before synchronizing* the whole source tree and allows to automatically download the files stored within the Git LFS server when Repo checks out the Git LFS-backed repositories of the source tree (i.e.  distfiles and artifacts).
+
+Then, you can use [Repo](https://gerrit.googlesource.com/git-repo/) to get the sources, the distfiles and the artifacts:
 ```console
 mkdir clipos4
 cd clipos4
